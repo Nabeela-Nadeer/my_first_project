@@ -310,7 +310,7 @@ button{
    text-align: center;
    padding: 5px 10px;
 }
-.container .search-section .side-section .section2{
+.main-blog .container .search-section .side-section .section2{
     width:85%;
     height: 200px;
     border-radius: 5px;
@@ -318,40 +318,40 @@ button{
     margin-left:15px;
     margin-bottom: 15px;
 }
-.container .search-section .side-section .section2 .categories-head{
+.main-blog .container .search-section .side-section .section2 .categories-head{
     width: 99%;
     height: 50px;
     background-color: rgb(231, 238, 238);
     border-bottom:2px solid rgb(167, 161, 161);
     border:groove;
 }
-.container .search-section .side-section .section2 .sub-categories{
+.main-blog .container .search-section .side-section .section2 .sub-categories{
     width: 100%;
     height: 149px;
     display: flex;
 }
-.container .search-section .side-section .section2 .sub-categories .sub-category1{
+.main-blog .container .search-section .side-section .section2 .sub-categories .sub-category1{
     width: 50%;
     height: 149px;  
 }
-.container .search-section .side-section .section2 .sub-categories .sub-category1 ul{
+.main-blog .container .search-section .side-section .section2 .sub-categories .sub-category1 ul{
    list-style-type: none;
 }
-.container .search-section .side-section .section2 .sub-categories .sub-category2{
+.main-blog .container .search-section .side-section .section2 .sub-categories .sub-category2{
     width: 50%;
     height: 149px; 
 }
-.container .search-section .side-section .section2 .sub-categories .sub-category2 ul{
+.main-blog .container .search-section .side-section .section2 .sub-categories .sub-category2 ul{
     list-style-type: none;
 }
-.container .search-section .side-section .section3{
+.main-blog .container .search-section .side-section .section3{
     width:85%;
     height: 200px;
     margin-left:15px;
     border-radius: 5px;
     border-style: outset;
 }
-.container .search-section .side-section .section3 .widget-head{
+.main-blog .container .search-section .side-section .section3 .widget-head{
     width: 99%;
     height: 50px;
     background-color: rgb(231, 238, 238);
@@ -359,7 +359,7 @@ button{
     border:groove;
     box-shadow: 1px 1px 1px grey;
 }
-.container .search-section .side-section .section3 .widget-description{
+.main-blog .container .search-section .side-section .section3 .widget-description{
     margin-left: 10px;
 }
 footer .main-footer{
@@ -377,39 +377,40 @@ footer .main-footer .title-div{
 footer .main-footer p{
     color: rgb(226, 231, 236);
 }
-.blog2 .container{
+/* Second site */
+.main-blog .container{
     width:100%;
     display: flex;
 }
-.blog2 .container .blog-section{
+.main-blog .container .blog-section{
     width:65%;
 }
-.blog2 .container .blog-section .welcome-blog{
+.main-blog .container .blog-section .welcome-blog{
     width: 90%;
     height: 500px;
     margin: 45px 45px 0 45px;
 }
-.blog2 .container .blog-section .blog-head{
+.main-blog .container .blog-section .blog-head{
     width: 100%;
     height: 100px;
 }
-.blog2 .container .blog-section .blog-head h1{
+.main-blog .container .blog-section .blog-head h1{
     margin-bottom: 0;
 }
-.blog2 .container .blog-section .blog-head p{
+.main-blog .container .blog-section .blog-head p{
     margin-top: 0px;
     color: rgb(93, 95, 97);
     margin-bottom: 0;
     font-size: small;
 }
-.blog2 .container .blog-section .blog-head .buttons{
+.main-blog .container .blog-section .blog-head .buttons{
     width:20%;
     height: 30px;
     margin-top: 0;
     justify-content: flex-start;
     display: flex;
 }
-.blog2 .container .blog-section .blog-head .buttons .button1{
+.main-blog .container .blog-section .blog-head .buttons .button1{
     width:30%;
     height: 15px;
     margin:5px 0 0 0;
@@ -417,12 +418,12 @@ footer .main-footer p{
     border-radius: 7px;
     background-color: rgb(96, 98, 99);
 }
-.blog2 .container .blog-section .blog-head .buttons .button1 p{
+.main-blog .container .blog-section .blog-head .buttons .button1 p{
     font-size:10px;
     color: white;
     text-align: center;
 }
-.blog2 .container .blog-section .blog-head .buttons .button2{
+.main-blog .container .blog-section .blog-head .buttons .button2{
     width:30%;
     height: 15px;
     margin-top: 5px;
@@ -431,150 +432,150 @@ footer .main-footer p{
     margin-left: 3px;
     background-color: rgb(102, 104, 105);
 }
-.blog2 .container .blog-section .blog-head .buttons .button2 p{
+.main-blog .container .blog-section .blog-head .buttons .button2 p{
     font-size:10px;
     color: white;
     text-align: center;
 }
-.blog2 .container .blog-section .blog-pic{
+.main-blog .container .blog-section .blog-pic{
     width:99%;
     height: 380px;
     border: groove;
     border-radius: 5px;
 }
-.blog2 .container .blog-section .blog-pic img{
+.main-blog .container .blog-section .blog-pic img{
     height: 100%;
     width: 100%;
 }
-.blog2 .container .blog-section .welcome-blog-description{
+.main-blog .container .blog-section .welcome-blog-description{
     width: 90%;
     margin: 0 0 0 45px;
 }
-.blog2 .container .blog-section .sub-blog{
+.main-blog .container .blog-section .sub-blog{
     width: 90%;
     margin: 20px 0 0 45px;
 }
-.blog2 .container .blog-section .discussion-section{
+.main-blog .container .blog-section .discussion-section{
     width:90%;
     background-color:rgb(237, 227, 227);
     margin: 0 0 30px 45px;
     border: groove;
     border-radius: 5px;
 }
-.blog2 .container .blog-section .discussion-section .comment-box input{
+.main-blog .container .blog-section .discussion-section .comment-box input{
     width:85%;
     padding: 40px 50px;
     margin-left: 20px;
     margin-top: 10px;
     border: groove;
 }
-.blog2 .container .blog-section .discussion-section .comment1{
+.main-blog .container .blog-section .discussion-section .comment1{
     width:97%;
     height: 100px;
     margin: 10px 0 0 20px;
     display: flex;
 }
-.blog2 .container .blog-section .discussion-section .comment1 .dp1{
+.main-blog .container .blog-section .discussion-section .comment1 .dp1{
     width:12%;
     height: 100px;
 }
-.blog2 .container .blog-section .discussion-section .comment1 .dp1 img{
+.main-blog .container .blog-section .discussion-section .comment1 .dp1 img{
     width: 67%;
     height: 66px;
     border: groove;
     border-radius: 5pc;
     margin: 14px
 }
-.blog2 .container .blog-section .discussion-section .comment1 .review1{
+.main-blog .container .blog-section .discussion-section .comment1 .review1{
     width: 85%;
     height: 100px;
 }
-.blog2 .container .blog-section .discussion-section .comment1 .review1 h4{
+.main-blog .container .blog-section .discussion-section .comment1 .review1 h4{
     margin-bottom: 0;
 }
-.blog2 .container .blog-section .discussion-section .comment1 .review1 p{
+.main-blog .container .blog-section .discussion-section .comment1 .review1 p{
     margin-top: 5px;
 }
-.blog2 .container .blog-section .discussion-section .comment2{
+.main-blog .container .blog-section .discussion-section .comment2{
     width:97%;
     height: 100px;
     margin: 10px 0 0 20px;
     display: flex;
 }
-.blog2 .container .blog-section .discussion-section .comment2 .dp2{
+.main-blog .container .blog-section .discussion-section .comment2 .dp2{
     width:12%;
     height: 100px;
     margin-left: 55px;
 }
-.blog2 .container .blog-section .discussion-section .comment2 .dp2 img{
+.main-blog .container .blog-section .discussion-section .comment2 .dp2 img{
     width: 67%;
     height: 66px;
     border: groove;
     border-radius: 5pc;
     margin: 14px
 }
-.blog2 .container .blog-section .discussion-section .comment2 .review2{
+.main-blog .container .blog-section .discussion-section .comment2 .review2{
     width: 80%;
     height: 100px;
 }
-.blog2 .container .blog-section .discussion-section .comment2 .review2 h4{
+.main-blog .container .blog-section .discussion-section .comment2 .review2 h4{
     margin-bottom: 0;
 }
-.blog2 .container .blog-section .discussion-section .comment2 .review2 p{
+.main-blog .container .blog-section .discussion-section .comment2 .review2 p{
     margin-top: 5px;
 }
-.blog2 .container .blog-section .discussion-section .comment3{
+.main-blog .container .blog-section .discussion-section .comment3{
     width:97%;
     height: 100px;
     margin: 10px 0 0 20px;
     display: flex;
 }
-.blog2 .container .blog-section .discussion-section .comment3 .dp3{
+.main-blog .container .blog-section .discussion-section .comment3 .dp3{
     width:12%;
     height: 100px;
     margin-left: 55px;
 }
-.blog2 .container .blog-section .discussion-section .comment3 .dp3 img{
+.main-blog .container .blog-section .discussion-section .comment3 .dp3 img{
     width: 67%;
     height: 66px;
     border: groove;
     border-radius: 5pc;
-    margin: 14px
+    margin: 14px;
 }
-.blog2 .container .blog-section .discussion-section .comment3 .review3{
+.main-blog .container .blog-section .discussion-section .comment3 .review3{
     width: 80%;
     height: 100px;
 }
-.blog2 .container .blog-section .discussion-section .comment3 .review3 h4{
+.main-blog .container .blog-section .discussion-section .comment3 .review3 h4{
     margin-bottom: 0;
 }
-.blog2 .container .blog-section .discussion-section .comment3 .review3 p{
+.main-blog .container .blog-section .discussion-section .comment3 .review3 p{
     margin-top: 5px;
 }
-.blog2 .container .blog-section .discussion-section .comment4{
+.main-blog .container .blog-section .discussion-section .comment4{
     width:97%;
     height: 100px;
     margin: 10px 0 0 20px;
     display: flex;
 }
-.blog2 .container .blog-section .discussion-section .comment4 .dp4{
+.main-blog .container .blog-section .discussion-section .comment4 .dp4{
     width:12%;
     height: 100px;
 }
-.blog2 .container .blog-section .discussion-section .comment4 .dp4 img{
+.main-blog .container .blog-section .discussion-section .comment4 .dp4 img{
     width: 67%;
     height: 66px;
     border: groove;
     border-radius: 5pc;
     margin: 14px
 }
-.blog2 .container .blog-section .discussion-section .comment4 .review4{
+.main-blog .container .blog-section .discussion-section .comment4 .review4{
     width: 85%;
     height: 100px;
 }
-.blog2 .container .blog-section .discussion-section .comment4 .review4 h4{
+.main-blog .container .blog-section .discussion-section .comment4 .review4 h4{
     margin-bottom: 0;
 }
-.blog2 .container .blog-section .discussion-section .comment4 .review4 p{
+.main-blog .container .blog-section .discussion-section .comment4 .review4 p{
     margin-top: 5px;
 }
