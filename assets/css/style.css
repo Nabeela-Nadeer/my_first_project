@@ -71,37 +71,38 @@ header .main-header .container .nav .nav-links ul li a{
     background-color: white;
     margin-left:20px;
 }
-.main-blog .container .images-section .post1{
+.main-blog .container .images-section .main-post{
     height:600px;
     width:100%;
     background-color: white;
     box-shadow: 2px 2px 5px gray;
     border-radius:0 5px 5px 0;
 }
-.main-blog .container .images-section .post1 .image1{
+.main-blog .container .images-section .main-post .main-post-image{
     width:100%;
 }
-.main-blog .container .images-section .post1 .image1 .img1{
+.main-blog .container .images-section .main-post .main-post-image .img1{
     height: 450px;
     width:100%;
     border-radius:0 5px 0 0;
 }
-.main-blog .container .images-section .post1 .post1-title{
+.main-blog .container .images-section .main-post .main-post-title{
     margin: 8px;
 }
-.main-blog .container .images-section .post1 .post1-title span{
+.main-blog .container .images-section .main-post .main-post-title span{
     color: rgb(82, 84, 86);
     font-size: smaller;
 }
-.main-blog .container .images-section .post1 .post1-title h2{
+.main-blog .container .images-section .main-post .main-post-title h2{
     margin-top: 0%;
     margin-bottom: 0%;
 }
-.main-blog .container .images-section .post1 .post1-title p{
-    margin-top: 0%;
+.main-blog .container .images-section .main-post .main-post-title p{
+    margin-top: 1%;
     margin-bottom:1px ;
+    font-size: smaller;
 }
-button{
+.buttons-readmore{
     color:rgb(214, 217, 217);
     background-color: blue;
     border-radius: 9%;
@@ -118,121 +119,38 @@ button{
     display: flex;
     flex-wrap: wrap;
     margin: 15px 0% 0% 0%;
+    justify-content: space-between;
 }
-.main-blog .container .images-section .sub-posts .post2{
+.posts{
     width:48%;
     height: 480px;
-    box-shadow: 1px 1px 5px gray;
-    border-radius:5px 5px 5px 5px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
 }
-.main-blog .container .images-section .sub-posts .post2 .image2{
+.sub-image{
     width:100%;
 }
-.main-blog .container .images-section .sub-posts .post2 .image2 .img2{
+.imgs{
     height: 300px;
     width:100%;
 }
-.main-blog .container .images-section .sub-posts .post2 .post2-title{
+.post-details{
     margin: 10px;
 }
-.main-blog .container .images-section .sub-posts .post2 .post2-title span{
+.post-date{
     color: rgb(82, 84, 86);
     font-size: smaller;
 }
-.main-blog .container .images-section .sub-posts .post2 .post2-title h3{
+.post-title{
     margin-top: 0%;
     margin-bottom: 10px;
 }
-.main-blog .container .images-section .sub-posts .post2 .post2-title p{
-    margin-top: 0%;
-    margin-bottom: 10px;
-    font-size: small;
-}
-.main-blog .container .images-section .sub-posts .post3{
-    width:49%;
-    height: 480px; 
-    box-shadow: 1px 1px 5px gray;
-    border-radius:5px 5px 5px 5px;   
-    margin-left: 23px;
-}
-.main-blog .container .images-section .sub-posts .post3 .image3{
-    width:100%;
-}
-.main-blog .container .images-section .sub-posts .post3 .image3 .img3{
-    height: 300px;
-    width:100%;
-}
-.main-blog .container .images-section .sub-posts .post3 .post3-title{
-    margin: 10px;
-}
-.main-blog .container .images-section .sub-posts .post3 .post3-title span{
-    color: rgb(82, 84, 86);
-    font-size: smaller;
-}
-.main-blog .container .images-section .sub-posts .post3 .post3-title h3{
-    margin-top: 0%;
-    margin-bottom: 10px;
-}
-.main-blog .container .images-section .sub-posts .post3 .post3-title p{
-    margin-top: 0%;
-    margin-bottom: 10px;
-    font-size: small;
-}
-.main-blog .container .images-section .sub-posts .post4{
-    width:48%;
-    height: 480px;
-    box-shadow: 1px 1px 5px gray;
-    border-radius:5px 5px 5px 5px; 
-}
-.main-blog .container .images-section .sub-posts .post4 .image4{
-    width:100%;
-}
-.main-blog .container .images-section .sub-posts .post4 .image4 .img4{
-    height: 300px;
-    width:100%;
-}
-.main-blog .container .images-section .sub-posts .post4 .post4-title{
-    margin: 10px;
-}
-.main-blog .container .images-section .sub-posts .post4 .post4-title span{
-    color: rgb(82, 84, 86);
-    font-size: smaller;
-}
-.main-blog .container .images-section .sub-posts .post4 .post4-title h3{
-    margin-top: 0%;
-    margin-bottom: 10px;
-}
-.main-blog .container .images-section .sub-posts .post4 .post4-title p{
-    margin-top: 0%;
-    margin-bottom: 10px;
-    font-size: small;
-}
-.main-blog .container .images-section .sub-posts .post5{
-    width:49%;
-    height: 480px;
-    box-shadow: 1px 1px 5px gray;
-    border-radius:5px 5px 5px 5px;  
-    margin-left: 23px;
-}
-.main-blog .container .images-section .sub-posts .post5 .image5{
-    width:100%;
-}
-.main-blog .container .images-section .sub-posts .post5 .image5 .img5{
-    height: 300px;
-    width:100%;
-}
-.main-blog .container .images-section .sub-posts .post5 .post5-title{
-    margin: 10px;
-}
-.main-blog .container .images-section .sub-posts .post5 .post5-title span{
-    color: rgb(82, 84, 86);
-    font-size: smaller;
-}
-.main-blog .container .images-section .sub-posts .post5 .post5-title h3{
-    margin-top: 0%;
-    margin-bottom: 10px;
-}
-.main-blog .container .images-section .sub-posts .post5 .post5-title p{
+.post-description{
     margin-top: 0%;
     margin-bottom: 10px;
     font-size: small;
