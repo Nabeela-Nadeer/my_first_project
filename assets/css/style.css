@@ -320,44 +320,44 @@ footer .main-footer p{
     margin-bottom: 0;
     font-size: small;
 }
-.main-blog .container .blog-section .blog-head .buttons{
+main .main-blog .container .blog-section .welcome-blog .blog-head .button-category{
     width:20%;
     height: 30px;
     margin-top: 0;
     justify-content: flex-start;
     display: flex;
 }
-.main-blog .container .blog-section .blog-head .buttons .button1{
+main .main-blog .container .blog-section .blog-head .button-category .button1{
     width:30%;
     height: 15px;
     margin:5px 0 0 0;
-    border-style: groove;
+    box-shadow: 1px 1px 3px gray;
     border-radius: 7px;
     background-color: rgb(96, 98, 99);
 }
-.main-blog .container .blog-section .blog-head .buttons .button1 p{
-    font-size:10px;
+main .main-blog .container .blog-section .blog-head .button-category .button1 p{
+    font-size:9px;
     color: white;
     text-align: center;
 }
-.main-blog .container .blog-section .blog-head .buttons .button2{
+main .main-blog .container .blog-section .blog-head .button-category .button2{
     width:30%;
     height: 15px;
     margin-top: 5px;
-    border-style: groove;
+    box-shadow: 1px 1px 3px gray;
     border-radius: 7px;
     margin-left: 3px;
     background-color: rgb(102, 104, 105);
 }
-.main-blog .container .blog-section .blog-head .buttons .button2 p{
+main .main-blog .container .blog-section .blog-head .button-category .button2 p{
     font-size:10px;
     color: white;
     text-align: center;
 }
-.main-blog .container .blog-section .blog-pic{
+.blog-pic{
     width:99%;
     height: 380px;
-    border: groove;
+    box-shadow: 1px 1px 5px gray;
     border-radius: 5px;
 }
 .main-blog .container .blog-section .blog-pic img{
@@ -386,113 +386,34 @@ footer .main-footer p{
     margin-top: 10px;
     border: groove;
 }
-.main-blog .container .blog-section .discussion-section .comment1{
+.comments{
     width:97%;
     height: 100px;
     margin: 10px 0 0 20px;
     display: flex;
 }
-.main-blog .container .blog-section .discussion-section .comment1 .dp1{
+.dp{
     width:12%;
     height: 100px;
 }
-.main-blog .container .blog-section .discussion-section .comment1 .dp1 img{
+.dp2{
+    margin-left: 55px;
+}
+.profile-pic{
     width: 67%;
     height: 66px;
     border: groove;
     border-radius: 5pc;
     margin: 14px
 }
-.main-blog .container .blog-section .discussion-section .comment1 .review1{
+.review{
     width: 85%;
     height: 100px;
 }
-.main-blog .container .blog-section .discussion-section .comment1 .review1 h4{
+.commenter-head{
     margin-bottom: 0;
 }
-.main-blog .container .blog-section .discussion-section .comment1 .review1 p{
+.commenter-writings{
     margin-top: 5px;
 }
-.main-blog .container .blog-section .discussion-section .comment2{
-    width:97%;
-    height: 100px;
-    margin: 10px 0 0 20px;
-    display: flex;
-}
-.main-blog .container .blog-section .discussion-section .comment2 .dp2{
-    width:12%;
-    height: 100px;
-    margin-left: 55px;
-}
-.main-blog .container .blog-section .discussion-section .comment2 .dp2 img{
-    width: 67%;
-    height: 66px;
-    border: groove;
-    border-radius: 5pc;
-    margin: 14px
-}
-.main-blog .container .blog-section .discussion-section .comment2 .review2{
-    width: 80%;
-    height: 100px;
-}
-.main-blog .container .blog-section .discussion-section .comment2 .review2 h4{
-    margin-bottom: 0;
-}
-.main-blog .container .blog-section .discussion-section .comment2 .review2 p{
-    margin-top: 5px;
-}
-.main-blog .container .blog-section .discussion-section .comment3{
-    width:97%;
-    height: 100px;
-    margin: 10px 0 0 20px;
-    display: flex;
-}
-.main-blog .container .blog-section .discussion-section .comment3 .dp3{
-    width:12%;
-    height: 100px;
-    margin-left: 55px;
-}
-.main-blog .container .blog-section .discussion-section .comment3 .dp3 img{
-    width: 67%;
-    height: 66px;
-    border: groove;
-    border-radius: 5pc;
-    margin: 14px;
-}
-.main-blog .container .blog-section .discussion-section .comment3 .review3{
-    width: 80%;
-    height: 100px;
-}
-.main-blog .container .blog-section .discussion-section .comment3 .review3 h4{
-    margin-bottom: 0;
-}
-.main-blog .container .blog-section .discussion-section .comment3 .review3 p{
-    margin-top: 5px;
-}
-.main-blog .container .blog-section .discussion-section .comment4{
-    width:97%;
-    height: 100px;
-    margin: 10px 0 0 20px;
-    display: flex;
-}
-.main-blog .container .blog-section .discussion-section .comment4 .dp4{
-    width:12%;
-    height: 100px;
-}
-.main-blog .container .blog-section .discussion-section .comment4 .dp4 img{
-    width: 67%;
-    height: 66px;
-    border: groove;
-    border-radius: 5pc;
-    margin: 14px
-}
-.main-blog .container .blog-section .discussion-section .comment4 .review4{
-    width: 85%;
-    height: 100px;
-}
-.main-blog .container .blog-section .discussion-section .comment4 .review4 h4{
-    margin-bottom: 0;
-}
-.main-blog .container .blog-section .discussion-section .comment4 .review4 p{
-    margin-top: 5px;
-}
+
